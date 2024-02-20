@@ -17,7 +17,7 @@ Step2: Add these two dependencies in ```pom.xml``` file
 ```
 Step 3:
 in ```application.properties``` file \
-Add \
+Add
 ```
 spring.zipkin.base-url= http://localhost:9411
 spring.sleuth.sampler.probability=1.0
