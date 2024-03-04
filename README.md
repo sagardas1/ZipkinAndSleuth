@@ -1,7 +1,16 @@
 ##### Zipkin and Sleuth
 Step1: Download zipkin-server-2.12.9-exec.jar.zip.  
+and extract the zip file \
 and make it up by \
-```java -jar zipkin-server-2.12.9-exec.jar.zip``` \
+```java -jar zipkin-server-2.12.9-exec.jar``` \
+i.e : \
+ ```java -Xms512M -Xmx1024M -Dserver.port=9411 -jar zipkin-server-2.12.9-exec.jar --STORAGE_TYPE=mem```
+1. Increase the heap memory size \
+```-Xms512M -Xmx1024M```
+2. give the server port \
+   ```-Dserver.port=9411```
+3. give the storage :
+```--STORAGE_TYPE=mem```
 Url: http://localhost:9411/zipkin/ \
 Step2: Add these two dependencies in ```pom.xml``` file
 ```
