@@ -10,7 +10,7 @@ i.e : \
 2. give the server port \
    ```-Dserver.port=9411```
 3. give the storage :
-```--STORAGE_TYPE=mem```
+```--STORAGE_TYPE=mem``` \
 Url: http://localhost:9411/zipkin/ \
 Step2: Add these two dependencies in ```pom.xml``` file
 ```
