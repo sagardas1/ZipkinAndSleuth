@@ -19,6 +19,7 @@ Step2: Add these two dependencies in ```pom.xml``` file
 <artifactId>spring-cloud-sleuth-zipkin</artifactId>
 </dependency>
 
+
 <dependency>
 <groupId>org.springframework.cloud</groupId>
 <artifactId>spring-cloud-starter-sleuth</artifactId>
