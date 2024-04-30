@@ -1,5 +1,3 @@
-
-
 ##### Zipkin and Sleuth
 Step1: Download zipkin-server-2.12.9-exec.jar.zip.  
 and extract the zip file \
